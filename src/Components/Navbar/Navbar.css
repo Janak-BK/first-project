@@ -26,3 +26,35 @@
     background: #fff;
     color: #262626;
 }
+
+@media (max-width: 768px) {
+    .nav {
+        margin: 10px 20px; /* Adjust margin for smaller screens */
+        margin-top: 10px;
+    }
+    .nav-logo {
+        font-size: 25px; /* Decrease font size for smaller screens */
+    }
+    .nav-menu {
+        gap: 30px; /* Decrease the gap between menu items for smaller screens */
+    }
+}
+
+/* For screens smaller than 480px (e.g., smartphones) */
+@media (max-width: 480px) {
+    .nav {
+        margin: 2px 5px; /* Further reduce margin for smaller screens */
+        margin-top: 10px;
+    }
+    .nav-logo {
+        font-size: 24px; /* Decrease font size even more for smaller screens */
+        
+    }
+    .nav-menu {
+        gap: 10px; /* Further decrease the gap between menu items for smaller screens */
+    }
+    .nav-contact {
+        padding: 5px 20px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Decrease font size for smaller screens */
+    }
+}
